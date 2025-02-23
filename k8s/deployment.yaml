@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: notification-service
-          image: joeltompt/notification-service:latest
+          image: joeltompt/qorvia-notification-service:latest
           ports:
             - containerPort: 8080
           envFrom:
